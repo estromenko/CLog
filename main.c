@@ -1,9 +1,3 @@
-# CLog
-Simple colored logger for C/C++ applications
-
-
-# Usage
-```c
 #include "clog.h"
 
 
@@ -22,11 +16,3 @@ int main() {
     clog_print(CLogFatalLevel, "FATAL2"); // Won't be printed because program finished
     return 0;
 }
-
-
-```
-# Output:
-
-<font color='yellow'>[DEBUG] 123123 </font>
-
-<font color='red'>[FATAL] FATAL </font>

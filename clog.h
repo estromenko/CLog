@@ -10,7 +10,8 @@ typedef enum CLogLevel {
 } CLogLevel;
 
 
-extern void clog_set_level(CLogLevel level);
+extern void clog_add_level(CLogLevel level);
+extern void clog_remove_level(CLogLevel level);
 extern void clog_print(CLogLevel level, char* data);
 
 #endif // CLOG_H
