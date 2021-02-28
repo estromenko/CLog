@@ -27,6 +27,6 @@ int main() {
 ```
 # Output:
 
-<font color='yellow'>[DEBUG] 123123 </font>
+[DEBUG] 123123 
 
-<font color='red'>[FATAL] FATAL </font>
+[FATAL] FATAL
